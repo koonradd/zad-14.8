@@ -20,6 +20,4 @@ Gif = React.createClass({
     );
   }
 });
-getUrl: function() {
-    return this.props.sourceUrl || GIPHY_LOADING_URL;
-},
+
